@@ -1,0 +1,32 @@
+.player {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  width: 100vw;
+  height: auto;
+  border-top: 1px solid #696563;
+  display: flex;
+  font-size: 28px;
+  padding: 0.4em;
+  align-items: flex-start;
+
+}
+
+.play,
+.pause {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+
+  svg {
+    width: 30px;
+    fill: #7b7b7b;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  &.hide {
+    display: none !important;
+  }
+}
